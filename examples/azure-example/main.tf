@@ -13,7 +13,7 @@ provider "azurerm" {
 }
 
 module "resource_group" {
-  source = "../../iac/terraform/azure"
+  source = "../../"
 
   name     = "rg-example-dev"
   location = "East US"
